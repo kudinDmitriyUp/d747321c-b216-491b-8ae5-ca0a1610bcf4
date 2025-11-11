@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -12,7 +12,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import FaqBase from '@/components/sections/faq/FaqBase';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Award, Calendar, CheckCircle, DollarSign, HelpCircle, MessageCircle, Package, Phone, Settings, Star, Tool, TrendingUp, Wrench } from 'lucide-react';
+import { Award, Calendar, CheckCircle, DollarSign, HelpCircle, MessageCircle, Package, Phone, Settings, Star, TrendingUp, Wrench } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -153,7 +153,7 @@ export default function Home() {
             {
               id: "basic",
               badge: "Basic Service",
-              badgeIcon: Tool,
+              badgeIcon: Wrench,
               price: "Starting at $200",
               subtitle: "Essential repair and maintenance",
               features: [
